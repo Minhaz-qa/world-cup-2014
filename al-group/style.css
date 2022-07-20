@@ -177,6 +177,7 @@ body {
     color: white;
     font-weight: 900px;
     font-size: 20px;
+    visibility: hidden;
 }
 
 /* Extra Button  */
