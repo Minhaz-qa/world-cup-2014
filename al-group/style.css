@@ -161,6 +161,26 @@ body {
 
 /* article style end  */
 
+/* Extra Button  */
+.see-more {
+    margin-top: 5%;
+    text-align: center;
+    visibility: hidden;
+
+}
+
+.see-more a {
+    text-decoration: none;
+    background-color: tomato;
+    padding: 10px 30px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 900px;
+    font-size: 20px;
+}
+
+/* Extra Button  */
+
 footer {
     background-color: rgb(39, 39, 39);
     width: 100%;
@@ -327,6 +347,10 @@ hr {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
 
+    }
+
+    .see-more {
+        visibility: visible;
     }
 }
 
