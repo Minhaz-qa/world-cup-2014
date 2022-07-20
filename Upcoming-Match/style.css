@@ -289,3 +289,70 @@ hr {
 
     }
 }
+
+/* Mobile divice */
+
+
+@media only screen and (max-width: 688px) {
+    .profile {
+        display: block;
+        height: 832px;
+        text-align: center;
+        width: 320px;
+
+
+    }
+
+    #font-size h1 {
+        font-size: 40px;
+    }
+
+    .half-width {
+        padding-top: 10%;
+        padding-left: 10%;
+    }
+
+
+
+    .half-width img {
+        height: 182px;
+        width: 80%;
+        margin-top: -20%;
+    }
+
+    .container {
+        display: grid;
+        grid-template-columns: none;
+
+
+    }
+
+    .aside {
+        background-color: white;
+        width: 320px;
+
+    }
+
+    .button-1 {
+        border: 1px solid gray;
+    }
+
+    .display-grid {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+
+    footer {
+        width: 320px;
+        height: 650px;
+    }
+
+    .about-us {
+        display: block;
+    }
+
+    .media-icon {
+        display: block;
+    }
+}
