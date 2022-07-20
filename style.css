@@ -238,3 +238,32 @@ hr {
     grid-template-columns: repeat(3, 1fr);
 
 }
+
+/* Media  */
+
+/* tablet divices */
+
+@media only screen and (min-width: 668px) and (max-width: 992px) {
+    .profile {
+        height: 900px;
+        width: 900px;
+    }
+
+    .half-width img {
+        height: 400px;
+        margin-top: 50%;
+    }
+
+
+
+    .aside {
+        display: inline-block;
+    }
+
+
+    .display-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+}
