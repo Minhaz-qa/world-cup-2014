@@ -245,20 +245,45 @@ hr {
 
 @media only screen and (min-width: 668px) and (max-width: 992px) {
     .profile {
-        height: 900px;
-        width: 900px;
+        height: 500px;
+        width: 800px;
     }
+
+    .container {
+        display: grid;
+        grid-template-columns: none;
+        margin-left: 50px;
+
+    }
+
+    #font-size h1 {
+        font-size: 40px;
+    }
+
 
     .half-width img {
         height: 400px;
-        margin-top: 50%;
+        margin-top: 15%;
     }
 
 
 
     .aside {
-        display: inline-block;
+        /* display: inline-block; */
+        background-color: white;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        height: 20px;
+        text-align: center;
+
+
     }
+
+    .button-1 {
+        border: 1px solid lightgray;
+    }
+
+
 
 
     .display-grid {
