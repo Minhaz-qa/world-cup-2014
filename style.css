@@ -76,7 +76,6 @@ body {
 .aside {
     background-color: black;
     height: 210px;
-    /* margin-top: 10%; */
     border-radius: 10px;
     margin: 30px;
     padding-top: 13px;
@@ -162,6 +161,24 @@ body {
 }
 
 /* article style end  */
+
+.see-more {
+    margin-top: 5%;
+    text-align: center;
+    visibility: hidden;
+
+}
+
+.see-more a {
+    text-decoration: none;
+    background-color: tomato;
+    padding: 10px 30px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 900px;
+    font-size: 20px;
+}
+
 
 footer {
     background-color: rgb(39, 39, 39);
@@ -298,6 +315,10 @@ hr {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
 
+    }
+
+    .see-more {
+        visibility: visible;
     }
 }
 
