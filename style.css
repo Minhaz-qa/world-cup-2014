@@ -269,7 +269,6 @@ hr {
 
 
     .aside {
-        /* display: inline-block; */
         background-color: white;
         display: grid;
         grid-template-columns: repeat(3, 1fr);
@@ -282,9 +281,6 @@ hr {
     .button-1 {
         border: 1px solid lightgray;
     }
-
-
-
 
     .display-grid {
         display: grid;
