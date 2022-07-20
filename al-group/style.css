@@ -49,6 +49,16 @@ body {
     background-color: orange;
 }
 
+.animation {
+    position: relative;
+    transition: transform 1s;
+
+}
+
+.profile:hover .animation {
+    transform: translate(20px);
+}
+
 /* header style end */
 
 /* article style start  */
